@@ -1,0 +1,45 @@
+.jumping-letter-container {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .jumping-letter {
+    display: inline-block;
+    font-size: 2em; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .jumping-animation {
+    position: absolute;
+    animation: jump 0.5s infinite alternate; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px); /* Adjust jump height as needed */
+    }
+  }
+  
+  .dig {
+    display: inline-block;
+  }
+  
+  .jumping-o {
+    display: inline-block;
+    color: aqua;
+    position: relative;
+    animation: jump 0.5s infinite alternate; /* Use the same jump animation as before */
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px); /* Adjust jump height as needed */
+    }
+  }
+  
