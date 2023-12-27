@@ -51,11 +51,6 @@ const MentorProfile = () => {
               {/* Removed TextWrappers for brevity */}
             </DivOrderLg3>
           </DivJustifyContent>
-          <div>
-            {/* Removed HeadingJessica and TextWrappers for brevity */}
-            <p>Solution Manager - Creative Tim Officer</P>
-            <TextWrapper10>University of Computer Science</TextWrapper10>
-          </div>
           <DivMt>
             <DivColLg>
               <Paragraph2>
