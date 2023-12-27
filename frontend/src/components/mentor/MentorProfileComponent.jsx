@@ -91,6 +91,18 @@ const Section = styled.div`
   width: 1440px;
 `;
 
+const DivMt = styled.div`
+left: 0;
+`;
+
+const DivColLg = styled.div`
+left: 0;
+`;
+
+const Paragraph2 = styled.p`
+left: 0;
+`;
+
 const Overlap = styled.div`
   height: 580px;
   position: relative;
